@@ -1,0 +1,28 @@
+#simple-dialog-title{
+    text-align: center;
+}
+.addProductMainContainer{
+    padding:10px;
+    .addProductForm{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:left;
+        width: 100%;
+        .addProductInputs{
+            width: 50%;
+            
+            text-align: center;
+            margin-top:15px;
+        }
+    }
+    .addProductSaveBtn{
+        margin-top:15px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        .btnSave{
+            background-color: #95BF47 !important;
+        }
+    }
+}

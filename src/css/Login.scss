@@ -1,0 +1,36 @@
+.loginMainContainer{
+  
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    .loginCenterDiv{
+        border: 1px solid #95BF47;
+        border-radius:10px;
+        display:grid;
+        place-items: center;
+        padding: 20px;
+        // height: 100px;
+        width: 35%;
+        .inputDiv{
+            display: grid;
+    place-items: center;
+            padding: 10px;
+            .passwordPatternText{
+                font-size: 0.7rem;
+            }
+        }
+        .loginBtn{
+            background-color:#95BF47 !important;
+            color: white;
+            padding:10px;
+            width: 100%;
+            cursor: pointer;
+
+        }
+        .logoDiv>img{
+            height:15rem;
+
+        }
+    }
+}
